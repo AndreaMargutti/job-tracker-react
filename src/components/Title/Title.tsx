@@ -1,6 +1,4 @@
-type TitleProps = {
-  title: string;
-};
+import type { TitleProps } from "./TitleProps";
 
 export default function Title({ title }: TitleProps) {
   return (
