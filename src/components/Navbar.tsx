@@ -3,12 +3,18 @@ import Title from "./Title";
 export default function Navbar() {
   return (
     <>
-      <nav className="flex justify-between items-center">
+      <nav className="flex justify-between items-center shadow-md">
         <Title title="Job Tracker" />
         <div className="*:mx-2">
-          <a href="#">Sent</a>
-          <a href="#">On-Going</a>
-          <a href="#">Offers</a>
+          <a href="#" className="hover:underline underline-offset-4">
+            Sent
+          </a>
+          <a href="#" className="hover:underline underline-offset-4">
+            On-Going
+          </a>
+          <a href="#" className="hover:underline underline-offset-4">
+            Offers
+          </a>
         </div>
       </nav>
     </>
