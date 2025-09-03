@@ -1,7 +1,12 @@
+import Navbar from "./components/Navbar";
 import Title from "./components/Title";
 
 function App() {
-  return <Title title="Job Tracker" />;
+  return (
+    <>
+      <Navbar />
+    </>
+  );
 }
 
 export default App;
