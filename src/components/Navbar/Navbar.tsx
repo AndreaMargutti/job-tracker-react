@@ -12,7 +12,7 @@ export default function Navbar() {
   return (
     <>
       <nav className="flex justify-between items-center shadow-md px-8">
-        <Title title="Job Tracker" />
+        <Title title="Trackly" />
         <SearchBar text="Search" />
         <div className="*:mx-2 uppercase grow flex justify-around max-w-1/2">
           {navButtons.map((button) => (
