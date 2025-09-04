@@ -10,7 +10,7 @@ export default function SearchBar({ text }: SearchBarProps) {
         <input
           type="text"
           placeholder={text}
-          className="border-red-500 border-1 placeholder:pl-2"
+          className="border-red-500 border-1 p-1"
         />
       </div>
     </>
