@@ -34,7 +34,7 @@ export default function SearchBar({ text }: SearchBarProps) {
     <>
       <div className="flex items-center">
         <button onClick={() => setIsActive((prev) => !prev)}>
-          <label className="p-2">
+          <label className="p-2" style={{ color: "#9be3dd" }}>
             <i className="fa-solid fa-magnifying-glass fa-lg"></i>
           </label>
         </button>
