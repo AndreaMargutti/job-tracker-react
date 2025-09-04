@@ -1,9 +1,6 @@
-import { useState } from "react";
 import type { ButtonProps } from "./ButtonProps";
 
-export default function Button({ text }: ButtonProps) {
-  const [isSelected, setIsSelected] = useState(false);
-
+export default function Button({ text, isSelected, onSelect }: ButtonProps) {
   const selectedStyle = () => {
     if (!isSelected) return "";
 
@@ -13,7 +10,7 @@ export default function Button({ text }: ButtonProps) {
   return (
     <>
       <button
-        onClick={() => setIsSelected((prev) => !prev)}
+        onClick={onSelect}
         className={`border-2 rounded-lg py-2 px-4 font-bold uppercase hover:underline underline-offset-4 text-[#9be3dd] ${selectedStyle()}`}
       >
         {text}
