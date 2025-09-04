@@ -11,9 +11,11 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="flex justify-between items-center shadow-md px-8">
-        <Title title="Trackly" />
-        <SearchBar text="Search" />
+      <nav className="flex justify-between items-center shadow-lg shadow-cyan-500/50  px-8 min-h-20 relative bg-black">
+        <div className="flex">
+          <Title title="Trackly" />
+          <SearchBar text="Search" />
+        </div>
         <div className="*:mx-2 uppercase grow flex justify-around max-w-1/2">
           {navButtons.map((button) => (
             <Button key={button.id} text={button.text} type="button" />

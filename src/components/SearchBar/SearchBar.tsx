@@ -19,7 +19,7 @@ const SearchInput = ({ isActive, placeholder }: SearchInputProps) => {
       <input
         type="text"
         placeholder={placeholder}
-        className="border-red-500 border-1 p-1 w-64"
+        className="border-[#A5C9CA] border-3 p-1 w-64"
         aria-hidden={!isActive}
         tabIndex={isActive ? 0 : -1}
       />
