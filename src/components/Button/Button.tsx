@@ -4,7 +4,7 @@ export default function Button({ text, isSelected, onSelect }: ButtonProps) {
   const selectedStyle = () => {
     if (!isSelected) return "";
 
-    return "bg-[#9be3dd] text-white";
+    return "bg-[#9be3dd] text-[#A60067]";
   };
 
   return (
