@@ -13,7 +13,7 @@ export default function Navbar() {
   ];
 
   const handleButtonSelect = (buttonId: number) => {
-    setSelectedButtonId(buttonId);
+    setSelectedButtonId((prev) => (prev === buttonId ? null : buttonId));
   };
 
   return (

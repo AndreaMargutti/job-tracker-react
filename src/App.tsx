@@ -20,6 +20,7 @@ function App() {
             onSelect={() => openModal()}
           />
         </div>
+        <section className="grid"></section>
       </main>
     </>
   );
