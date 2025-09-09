@@ -78,36 +78,6 @@ function App() {
               </div>
             </section>
           </div>
-          <div className="max-h-[60vh] border-4 rounded-md text-[#9be3dd] overflow-scroll transparent-bar">
-            <h2 className="sticky top-0 text-center pt-4 font-extrabold uppercase text-xl">
-              Sent
-            </h2>
-            <section className="p-4">
-              <div className="bg-gray-500 rounded-md p-2 mb-4">
-                <h2 className="font-bold text-lg uppercase">TITOLO OFFERTA</h2>
-                <div className="flex gap-2 mb-2">
-                  <h4>Nome Azienda</h4>
-                  <p>Luogo</p>
-                </div>
-                <a href="#">Altre informazioni</a>
-              </div>
-            </section>
-          </div>
-          <div className="max-h-[60vh] border-4 rounded-md text-[#9be3dd] overflow-scroll transparent-bar">
-            <h2 className="sticky top-0 text-center pt-4 font-extrabold uppercase text-xl">
-              Sent
-            </h2>
-            <section className="p-4">
-              <div className="bg-gray-500 rounded-md p-2 mb-4">
-                <h2 className="font-bold text-lg uppercase">TITOLO OFFERTA</h2>
-                <div className="flex gap-2 mb-2">
-                  <h4>Nome Azienda</h4>
-                  <p>Luogo</p>
-                </div>
-                <a href="#">Altre informazioni</a>
-              </div>
-            </section>
-          </div>
         </section>
       </main>
       <footer className="bg-black text-white p-8">
