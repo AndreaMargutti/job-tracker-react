@@ -21,7 +21,7 @@ function App() {
           />
         </div>
         <section className="grid grid-cols-3 gap-8 px-8 pb-8">
-          <div className="max-h-[60vh] bg-red-500 overflow-scroll">
+          <div className="max-h-[60vh] bg-red-500 overflow-scroll transparent-bar">
             <h2 className="sticky top-0 bg-amber-400 text-center font-extrabold uppercase text-xl">
               Sent
             </h2>
