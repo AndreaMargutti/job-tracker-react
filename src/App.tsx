@@ -25,7 +25,7 @@ function App() {
         <section className="grid grid-cols-3 gap-8 px-8 pb-8">
           {/*  Start of SENT section */}
           <div className="max-h-[60vh] border-4 rounded-md text-accent-azure overflow-scroll transparent-bar">
-            <h2 className="bg-accent-gray sticky top-0 text-center py-4 font-extrabold uppercase text-xl">
+            <h2 className="bg-base-gray sticky top-0 text-center py-4 font-extrabold uppercase text-xl">
               Sent
             </h2>
             <section className="p-4 pt-0">
