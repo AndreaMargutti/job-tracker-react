@@ -18,7 +18,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="flex justify-between items-center shadow-lg shadow-cyan-500/50  px-8 min-h-20 relative bg-black">
+      <nav className="flex justify-between items-center shadow-lg shadow-cyan-500/50  px-8 min-h-20 relative bg-base">
         <div className="flex">
           <Title title="Trackly" />
           <SearchBar text="Search" />
