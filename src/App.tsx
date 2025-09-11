@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <main className="min-h-[80vh] bg-[#3F3F3F]">
+      <main className="min-h-[80vh] bg-base-gray">
         <div className="text-center py-6">
           <Title title="Your Job Offers" />
           <Button
@@ -24,12 +24,12 @@ function App() {
         {/* Start of Table section */}
         <section className="grid grid-cols-3 gap-8 px-8 pb-8">
           {/*  Start of SENT section */}
-          <div className="max-h-[60vh] border-4 rounded-md text-[#9be3dd] overflow-scroll transparent-bar">
-            <h2 className="bg-[#3F3F3F] sticky top-0 text-center py-4 font-extrabold uppercase text-xl">
+          <div className="max-h-[60vh] border-4 rounded-md text-accent-azure overflow-scroll transparent-bar">
+            <h2 className="bg-accent-gray sticky top-0 text-center py-4 font-extrabold uppercase text-xl">
               Sent
             </h2>
             <section className="p-4 pt-0">
-              <div className="bg-gray-500 rounded-md p-2 mb-4 shadow-md/45 shadow-[#9be3dd]">
+              <div className="bg-accent-gray rounded-md p-2 mb-4 shadow-md/45 shadow-accent-azure">
                 <h2 className="font-bold text-lg uppercase ">TITOLO OFFERTA</h2>
                 <div className="flex gap-2 mb-2">
                   <h4>Nome Azienda</h4>
@@ -41,7 +41,7 @@ function App() {
           </div>
         </section>
       </main>
-      <footer className="bg-black text-white p-8">
+      <footer className="bg-base text-white p-8">
         <Footer />
       </footer>
     </>

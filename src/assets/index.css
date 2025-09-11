@@ -1,9 +1,4 @@
 @import "tailwindcss";
-
-* {
-  font-family: "Roboto", sans-serif;
-}
-
-.transparent-bar::-webkit-scrollbar {
-  display: none;
-}
+@import "./color.css";
+@import "./typography.css";
+@import "./custom.css";

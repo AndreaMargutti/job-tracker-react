@@ -1,0 +1,3 @@
+.transparent-bar::-webkit-scrollbar {
+  display: none;
+}

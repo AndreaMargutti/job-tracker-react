@@ -1,0 +1,10 @@
+@layer base {
+  * {
+    font-family: "Roboto", sans-serif;
+  }
+
+  h1 {
+    font-size: var(--text-3xl);
+    font-weight: bold;
+  }
+}
