@@ -39,7 +39,10 @@ function renderJobTabs(sectionId: number) {
 
 function sections() {
   return jobSections.map((section) => (
-    <div className="max-h-[60vh] border-4 rounded-md text-accent-azure overflow-scroll transparent-bar">
+    <div
+      className="max-h-[60vh] border-4 rounded-md text-accent-azure overflow-scroll transparent-bar"
+      key={section.id}
+    >
       <h2 className="bg-base-gray sticky top-0 text-center py-4 font-extrabold uppercase text-xl">
         {section.title}
       </h2>
