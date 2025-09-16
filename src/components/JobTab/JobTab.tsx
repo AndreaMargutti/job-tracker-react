@@ -16,6 +16,7 @@ export default function JobTab() {
           isSelected={false}
         />
       </div>
+      {/*TODO: Insert Job Details Component Here */}
     </section>
   );
 }
