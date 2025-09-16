@@ -29,6 +29,7 @@ export default function Navbar() {
               key={button.id}
               text={button.text}
               type="button"
+              variant="primary"
               isSelected={selectedButtonId === button.id}
               onSelect={() => handleButtonSelect(button.id)}
             />

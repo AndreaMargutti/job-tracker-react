@@ -55,7 +55,12 @@ function App() {
       <main className="min-h-[80vh] bg-base-gray">
         <div className="text-center py-6">
           <Title title="Your Job Offers" />
-          <Button type="button" text="+ Add Job Offer" isSelected={false} />
+          <Button
+            type="button"
+            variant="primary"
+            text="+ Add Job Offer"
+            isSelected={false}
+          />
         </div>
         <section className="grid grid-cols-3 gap-8 px-8 pb-8">
           {sections()}

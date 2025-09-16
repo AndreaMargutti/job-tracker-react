@@ -1,3 +1,5 @@
+import Button from "../Button/Button";
+
 export default function JobTab() {
   return (
     <section className="p-4 pt-0">
@@ -7,7 +9,12 @@ export default function JobTab() {
           <h4>Nome Azienda</h4>
           <p>Luogo</p>
         </div>
-        <a href="#">Altre informazioni</a>
+        <Button
+          type="button"
+          text="View Details"
+          variant="secondary"
+          isSelected={false}
+        />
       </div>
     </section>
   );
