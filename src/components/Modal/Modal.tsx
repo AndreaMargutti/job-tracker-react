@@ -1,3 +1,4 @@
+import Button from "../Button/Button";
 import Title from "../Title/Title";
 import type { ModalProps } from "./ModalProps";
 
@@ -46,6 +47,10 @@ export default function Modal({ isOpen }: ModalProps) {
           <div className="border-2 border-accent-azure rounded-lg p-4 my-4 min-h-50 flex flex-col gap-4 text-accent-azure">
             <label htmlFor="">Job Description</label>
             <input type="text" className="border-1 p-2 grow" />
+          </div>
+          <div className="border-2 border-accent-azure flex justify-around items-centr min-h-10 p-4">
+            <Button text="Cancel" type="button" variant="primary" />
+            <Button text="Submit" type="button" variant="primary" />
           </div>
         </form>
       </div>
