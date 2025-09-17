@@ -6,7 +6,7 @@ export default function DetailsTab({ isOpen, onClose }: DetailsTabProps) {
 
   return (
     <div className="fixed inset-0 bg-black/50 backdrop-blur-sm z-10">
-      <div className="border-4 rounded-lg p-4 min-w-xl absolute top-[50%] left-[50%] -translate-[50%] z-10 shadow-2xl">
+      <div className="border-4 rounded-lg p-4 min-w-xl absolute top-[50%] left-[50%] -translate-[50%]">
         <h2 className="font-bold text-lg uppercase">Titolo Offerta</h2>
         <div className="flex justify-between">
           <h4>Nome Azienda</h4>
