@@ -1,8 +1,10 @@
 import Button from "./components/Button/Button";
 import Footer from "./components/Footer/Footer";
 import JobTab from "./components/JobTab/JobTab";
+import Modal from "./components/Modal/Modal";
 import Navbar from "./components/Navbar/Navbar";
 import Title from "./components/Title/Title";
+import { useState } from "react";
 
 const jobSections = [
   { id: 1, title: "Sent" },
@@ -46,6 +48,12 @@ function sections() {
 }
 
 function App() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const toggleModal = () => {
+    setIsModalOpen(!isModalOpen);
+  };
+
   return (
     <>
       <Navbar />
@@ -57,7 +65,9 @@ function App() {
             variant="primary"
             text="+ Add Job Offer"
             isSelected={false}
+            onSelect={toggleModal}
           />
+          <Modal isOpen={isModalOpen} />
         </div>
         <section className="grid grid-cols-3 gap-8 px-8 pb-8">
           {sections()}
