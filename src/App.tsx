@@ -12,12 +12,6 @@ const jobSections = [
 
 const jobOffers = [
   {
-    id: 1,
-    sectionId: 1,
-    title: "Frontend Developer",
-    company: "Tech Corp",
-  },
-  {
     id: 2,
     sectionId: 2,
     title: "UI/UX Designer",

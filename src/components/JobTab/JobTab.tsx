@@ -26,7 +26,7 @@ export default function JobTab() {
         />
       </div>
       {/*TODO: Insert Job Details Component Here */}
-      <DetailsTab isOpen={isDetailsOpen} />
+      <DetailsTab isOpen={isDetailsOpen} onClose={toggleDetails} />
     </section>
   );
 }
