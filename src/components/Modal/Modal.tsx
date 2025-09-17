@@ -10,7 +10,9 @@ export default function Modal({ isOpen }: ModalProps) {
         <Title title="Insert New Offer" />
         <form action="" method="POST">
           <div className="p-4 border-2 border-accent-azure rounded-lg">
-            <label htmlFor="">State</label>
+            <label htmlFor="" className="text-accent-azure">
+              State
+            </label>
             <select name="" id="">
               <option value="Sent">Sent</option>
               <option value="On-Going">On-Going</option>
